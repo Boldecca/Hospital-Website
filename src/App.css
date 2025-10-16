@@ -1,0 +1,135 @@
+🌿 Light Theme – Calming hospital aesthetic
+:root {
+  --background: #f8fbff; /* very light blue-white */
+  --foreground: #1f2d3d; /* deep navy text */
+  --card: #ffffff;
+  --card-foreground: #1f2d3d;
+  --popover: #ffffff;
+  --popover-foreground: #1f2d3d;
+
+  --primary: #007acc; /* hospital blue */
+  --primary-foreground: #ffffff;
+
+  --secondary: #5dade2; /* soft sky blue */
+  --secondary-foreground: #ffffff;
+
+  --muted: #e8f1f8; /* subtle blue-gray */
+  --muted-foreground: #4a6072;
+
+  --accent: #00bfa5; /* teal accent */
+  --accent-foreground: #ffffff;
+
+  --destructive: #e63946; /* medical red for alerts */
+  --destructive-foreground: #ffffff;
+
+  --border: #d6e2eb;
+  --input: #d6e2eb;
+  --ring: #007acc;
+
+  --chart-1: #007acc;
+  --chart-2: #5dade2;
+  --chart-3: #00bfa5;
+  --chart-4: #85c1e9;
+  --chart-5: #4a6072;
+
+  --radius: 0.5rem;
+
+  /* Sidebar colors */
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1f2d3d;
+  --sidebar-primary: #007acc;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e8f1f8;
+  --sidebar-accent-foreground: #1f2d3d;
+  --sidebar-border: #d6e2eb;
+  --sidebar-ring: #007acc;
+}
+
+/* 🌙 Dark Theme – Calm and professional */
+.dark {
+  --background: #101820;
+  --foreground: #e0e6ed;
+  --card: #1a2533;
+  --card-foreground: #e0e6ed;
+  --popover: #1a2533;
+  --popover-foreground: #e0e6ed;
+
+  --primary: #3399ff;
+  --primary-foreground: #101820;
+
+  --secondary: #2e86c1;
+  --secondary-foreground: #e0e6ed;
+
+  --muted: #1f2d3d;
+  --muted-foreground: #a3b1c2;
+
+  --accent: #00bfa5;
+  --accent-foreground: #101820;
+
+  --destructive: #e63946;
+  --destructive-foreground: #ffffff;
+
+  --border: #2a3b4d;
+  --input: #2a3b4d;
+  --ring: #3399ff;
+
+  --sidebar: #1a2533;
+  --sidebar-foreground: #e0e6ed;
+  --sidebar-primary: #3399ff;
+  --sidebar-primary-foreground: #101820;
+  --sidebar-accent: #2a3b4d;
+  --sidebar-accent-foreground: #e0e6ed;
+  --sidebar-border: #2a3b4d;
+  --sidebar-ring: #3399ff;
+}
+
+/* ✳️ Global base styles */
+* {
+  box-sizing: border-box;
+  border-color: var(--border);
+  outline-color: var(--ring);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🩺 Example elements using the theme */
+.card {
+  background-color: var(--card);
+  color: var(--card-foreground);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: #005fa3;
+}
+
+.button-secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+}
+
+.sidebar {
+  background-color: var(--sidebar);
+  color: var(--sidebar-foreground);
+  border-right: 1px solid var(--sidebar-border);
+  padding: 1rem;
+}
