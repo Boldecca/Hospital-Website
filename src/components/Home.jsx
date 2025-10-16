@@ -8,7 +8,7 @@ function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section - The big banner at the top */}
-      <section className="bg-blue-50 py-20">
+      <section className="bg-blue-100 py-20">
         <div className="max-w-7xl mx-auto px-4">
           {/* Grid with 2 columns on medium screens and up */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -91,7 +91,7 @@ function Home() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-300">
         <div className="max-w-7xl mx-auto px-4 text-center space-y-6">
           <h2 className="text-4xl font-bold">Ready to Take Care of Your Health?</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">

@@ -27,7 +27,7 @@ function Contact() {
             <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
 
             {/* Address Card */}
-            <div className="bg-white border rounded-lg p-6 shadow-sm">
+            <div className="bg-gray-100 border rounded-lg p-6 shadow-sm">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
                   <MapPin className="w-5 h-5 text-blue-600" />
@@ -46,7 +46,7 @@ function Contact() {
             </div>
 
             {/* Phone Card */}
-            <div className="bg-white border rounded-lg p-6 shadow-sm">
+            <div className="bg-gray-100 border rounded-lg p-6 shadow-sm">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
                   <Phone className="w-5 h-5 text-green-600" />
@@ -63,7 +63,7 @@ function Contact() {
             </div>
 
             {/* Email Card */}
-            <div className="bg-white border rounded-lg p-6 shadow-sm">
+            <div className="bg-gray-100 border rounded-lg p-6 shadow-sm">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
                   <Mail className="w-5 h-5 text-purple-600" />
@@ -80,7 +80,7 @@ function Contact() {
             </div>
 
             {/* Hours Card */}
-            <div className="bg-white border rounded-lg p-6 shadow-sm">
+            <div className="bg-gray-100 border rounded-lg p-6 shadow-sm">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
                   <Clock className="w-5 h-5 text-blue-600" />
@@ -108,7 +108,7 @@ function Contact() {
 
           {/* Right Column - Contact Form */}
           <div className="mt-8 md:mt-0 md:col-span-1">
-            <div className="bg-white border rounded-lg p-6 shadow-sm">
+            <div className="bg-blue-90 border rounded-lg p-6 shadow-sm">
               <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
 
               {/* Form */}
